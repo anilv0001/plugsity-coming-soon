@@ -299,7 +299,7 @@ function handleMobileSubmit() {
     // zipCode.value = "";
     console.log("isFormValid", data);
     postData(
-      "https://cors-anywhere.herokuapp.com/https://plugsity.herokuapp.com/api/CustomerInvitations",
+      "https://api.cs.plugsity.com/avi/v1/CustomerInvitations",
       data
     )
       .then((data) => {
