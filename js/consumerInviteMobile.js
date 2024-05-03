@@ -299,7 +299,7 @@ function handleMobileSubmit() {
     // zipCode.value = "";
     console.log("isFormValid", data);
     postData(
-      "https://api.cs.plugsity.com/avi/v1/CustomerInvitations",
+      "https://api.cs.plugsity.com/plugsity/plugsity/avi/v1/CustomerInvitations",
       data
     )
       .then((data) => {

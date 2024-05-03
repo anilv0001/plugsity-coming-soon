@@ -249,7 +249,7 @@ function handleSubmit() {
 
     console.log("isFormValid", data);
     postData(
-      "https://api.cs.plugsity.com/avi/v1/saveCustomer",
+      "https://api.cs.plugsity.com/plugsity/avi/v1/saveCustomer",
       data
     )
       .then((data) => {
@@ -313,7 +313,7 @@ function handleContactForm() {
     };
     console.log("isFormValid", data);
     postData(
-        "https://api.cs.plugsity.com/avi/v1/saveContactUs",
+        "https://api.cs.plugsity.com/plugsity/avi/v1/saveContactUs",
         data
     )
         .then((data) => {

@@ -265,14 +265,13 @@ function handleSubmit() {
 
     console.log("isFormValid", data);
     postData(
-      "https://api.cs.plugsity.com/avi/v1/inviteBusinessUser",
+      "https://api.cs.plugsity.com/plugsity/avi/v1/inviteBusinessUser",
       data
     )
       .then((data) => {
         // Display Modal
         console.log("response", data); // JSON data parsed by `data.json()` call
         if(data.Response.status == 200){
-          console.log("inside :::::123213")
           businessName.value = "";
           website.value = "";
           emailEl.value = "";
@@ -341,7 +340,7 @@ function handleMobileSubmit() {
 
     const validateData = data;
     postData(
-      "https://api.cs.plugsity.com/avi/v1/inviteBusinessUser",
+      "https://api.cs.plugsity.com/plugsity/avi/v1/inviteBusinessUser",
       data
     )
       .then((data) => {
