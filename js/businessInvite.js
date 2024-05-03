@@ -265,7 +265,7 @@ function handleSubmit() {
 
     console.log("isFormValid", data);
     postData(
-      "https://api.cs.plugsity.com/plugsity/avi/v1/inviteBusinessUser",
+      "https://api.cs.plugsity.com/avi/v1/inviteBusinessUser",
       data
     )
       .then((data) => {
@@ -340,7 +340,7 @@ function handleMobileSubmit() {
 
     const validateData = data;
     postData(
-      "https://api.cs.plugsity.com/plugsity/avi/v1/inviteBusinessUser",
+      "https://api.cs.plugsity.com/avi/v1/inviteBusinessUser",
       data
     )
       .then((data) => {
